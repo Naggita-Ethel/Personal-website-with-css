@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+<meta charset="utf-8">
+<title>Contact Me</title>
+
+</head>
+<body>
+  <h1>Contact me.</h1>
+
+  <p>Please fill out this form to be able to contact me.</p>
+  <form method= "post" action = "mailto:ethelnaggita@gmail.com">
+  <p><label>Name:
+  <input type= "text" id= "Name" placeholder= "Name" required /> (Name)
+  </label></p>
+  <p><strong>Gender:</strong><br>
+  <label>Male
+  <input name= "gender" type= "radio" value= "Male"></label>
+  <label>Female
+  <input name= "gender" type= "radio" value= "Female"></label>
+  </p>
+  <p><label>Email:
+  <input type= "email" id= "email" placeholder= "name@domain.com"/>(name@domain.com)
+  </label></p>
+  <p><label>Tel:
+  <input type= "tel" placeholder= "(###) ###-####" required />(###) ###-####
+  </label></p>
+  <p><label>Date:
+  <input type= "date"/>(yyyy-mm-dd)
+  </label></p>
+  <p>Please rate my website on a scale of one to ten.</p>
+  <p><label>Range:
+  <input type="range"
+  min= "1"
+  max= "10"/>
+  </label></p>
+  <p><label>Comments:<br>
+  <textarea name= "comments" rows= "4" cols= "36"></textarea>
+  </label></p>
+  <input type= "Submit" value="Submit">
+  <input type="reset" value="Clear">
+  </form>
+
+  </body>
+  </html>

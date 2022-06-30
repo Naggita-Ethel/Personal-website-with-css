@@ -1,0 +1,57 @@
+.MyBio{
+
+background-color: #E4DCCF;
+width:200px;
+display: inline-block;
+margin-right: 409px;
+padding: 130px;
+transition: background 0.5s
+}
+.MyBio:hover{background-color: yellow;}
+.MyPhoto{
+
+  background-color: blue;
+  width: 200px;
+  padding: 130px;
+  display: inline-block;
+transition: background 0.5s
+}
+.MyPhoto:hover{background-color: pink;}
+.MyEducationHistory{
+  background-color: #576F72;
+  width: 165px;
+  padding: 125px;
+  margin-left: 460px;
+transition: background 0.5s
+}
+.MyEducationHistory:hover{background-color: green;}
+.MyHobbies{
+  background-color: #9BA3EB;
+  width:200px;
+  display: inline-block;
+  margin-right: 409px;
+  padding:130px;
+  transition: background 0.5s
+}
+.MyHobbies:hover{background-color:#53BF9D ;}
+.ContactMe{
+  background-color: #F1DDBF;
+  width: 200px;
+  padding: 130px;
+  display: inline-block;
+transition: background 0.5s
+}
+.ContactMe:hover{background-color:#F66B0E ;}
+table{
+  border:2px solid red;
+}
+td{
+  border:2px solid red ;
+}
+th{
+  border:2px solid red;
+}
+h1{
+  text-align: center;
+  color: red;
+}
